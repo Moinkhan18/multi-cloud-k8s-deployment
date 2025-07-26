@@ -15,9 +15,3 @@ You can deploy the same Docker image to:
 - AWS EKS
 - Azure AKS
 - GCP GKE
-
-Just ensure the cluster context is set, then apply the manifests:
-
-```bash
-kubectl apply -f kubernetes/
-```
