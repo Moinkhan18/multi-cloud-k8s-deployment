@@ -1,0 +1,12 @@
+# Multi-Cloud Strategy Notes
+
+- Build the Docker image:
+  docker build -t your-dockerhub-username/multi-cloud-app .
+
+- Push to DockerHub:
+  docker push your-dockerhub-username/multi-cloud-app
+
+- Deploy to Kubernetes:
+  kubectl apply -f kubernetes/
+
+Repeat the process on AWS EKS, Azure AKS, and GCP GKE.
